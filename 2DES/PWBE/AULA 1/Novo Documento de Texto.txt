@@ -1,0 +1,7 @@
+RESUME
+
+mySQL -U ROOT --> BD lojinha { SQL/DML, INSERT, SELET	|	-DEPENDENCIAS	|	?nome:ANA? 
+		  SGBD mySQL(version:MARIADB)		|	-conexão BD	|	nascimento:20/01/1980
+							|	-CRND		|
+
+ 

@@ -1,0 +1,13 @@
+Exemplo $academia - Genérico
+
+MER - Modelo Entidade Relacionamento
+
+Aluno (ID_aluno: number (9), cpf: texto (20), nome completo: texto (100), cep: texto (10), numero: texto (5)-nulo,complemento: texto (50), telefone: texto (20)-nulo, nascimento: date (10));
+
+Treino ( ID_aluno: number: 9), (ID_matricula: number (9), data: datetime (10),nome completo: texto (100) );
+
+Matricula(ID_matricula: numberint (9), ID_aluno: name (20), ID-atividade: number (100), data_matricula: datetime (10));
+
+Pag. Cred.(numero do cartao: inteiro (20), chave de segurança : inteiro (5),data: datetime (10));
+
+Pag. Pix (cpf: texto (20), nome completo: texto (50), data: datetime (10));

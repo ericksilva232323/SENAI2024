@@ -1,0 +1,8 @@
+Exemplo $banco - Genérico
+
+MER - Modelo Entidade Relacionamento
+Clientes (cpf: texto (20), nome completo: texto (100), cep: texto (10), numero: texto (5)-nulo,complemento: texto (50), telefone: texto (20)-nulo, nascimento: data );
+
+Conta(numro da conta: inteiro, tipo:texto (20), cpf do cliente: texto (20)- Referencia [cliente, cpf]);
+
+Movimentação (id: inrteiro - auto incremento, tipo: texto (15), valor:moeda, numero da conta: inteiro - Referencia [Conta: numero da conta]);
