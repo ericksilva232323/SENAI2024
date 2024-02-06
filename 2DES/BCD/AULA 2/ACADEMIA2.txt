@@ -1,7 +1,0 @@
-Exemplo $academia - Genérico
-
-MER - Modelo Entidade Relacionamento
-
-Aluno(ID_aluno: number(9), name: text(20), cpf: number(12), cep: number(12), email: text(25), phone: number(25) - nulo);
-
-Plano(plano_Recorrente: moeda (5),)
